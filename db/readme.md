@@ -1,1 +1,1 @@
-Base de datas SQLITE 3 sin contraseña.
+Base de datos SQLITE 3 sin contraseña.
