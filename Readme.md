@@ -5,6 +5,7 @@ Sistema de Bingo Virtual para windows
 Creado por webscom sistemas
 Sitio web y soporte: www.webscom.com.ar
 ----------------------------------------------------------------------------------------
+
 Alcances Actuales:
 – Se juega con 90 bolas del 01 al 90
 – Porcentajes de dinero disponibles para premios de linea y bingo
