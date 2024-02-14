@@ -1,0 +1,239 @@
+object f_caja: Tf_caja
+  Left = 509
+  Height = 382
+  Top = 224
+  Width = 513
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'CAJA - Video Bingo DM'
+  ClientHeight = 382
+  ClientWidth = 513
+  Position = poMainFormCenter
+  LCLVersion = '2.2.6.0'
+  object fd: TJLabeledDateEdit
+    Left = 16
+    Height = 38
+    Hint = 'Fecha Desde, Inicial'
+    Top = 32
+    Width = 128
+    DisplayFormat = 'dd/MM/yyyy'
+    ButtonWidth = 34
+    Alignment = taRightJustify
+    EditLabel.Height = 17
+    EditLabel.Width = 128
+    EditLabel.Caption = 'Fecha Desde:'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Color = clBlack
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Segoe UI Semibold'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 0
+  end
+  object fh: TJLabeledDateEdit
+    Left = 184
+    Height = 38
+    Hint = 'Fecha Hasta, Final'
+    Top = 32
+    Width = 128
+    DisplayFormat = 'dd/MM/yyyy'
+    ButtonWidth = 34
+    Alignment = taRightJustify
+    EditLabel.Height = 17
+    EditLabel.Width = 128
+    EditLabel.Caption = 'Fecha Hasta:'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Color = clBlack
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Segoe UI Semibold'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 1
+  end
+  object tcaja: TJLabeledFloatEdit
+    Left = 336
+    Height = 33
+    Top = 328
+    Width = 160
+    DisplayFormat = '#,0.00'
+    Decimals = 2
+    NegativeColor = clDefault
+    Alignment = taRightJustify
+    EditLabel.Height = 17
+    EditLabel.Width = 160
+    EditLabel.Caption = '$ RESULTADO TOTAL'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Color = clNavy
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Segoe UI Semibold'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object b_loc: TBitBtn
+    Left = 352
+    Height = 40
+    Top = 31
+    Width = 104
+    Caption = 'Localizar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    Images = f_main.img_icon
+    ImageIndex = 15
+    OnClick = b_locClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Shape1: TShape
+    Left = 16
+    Height = 1
+    Top = 80
+    Width = 480
+  end
+  object lista: TDBGrid
+    Left = 16
+    Height = 199
+    Top = 104
+    Width = 480
+    AlternateColor = 16251899
+    Color = clWindow
+    Columns = <    
+      item
+        Alignment = taRightJustify
+        Title.Alignment = taCenter
+        Title.Caption = 'JUEGO'
+        Width = 80
+        FieldName = 'id_ju'
+      end    
+      item
+        Alignment = taRightJustify
+        Title.Alignment = taCenter
+        Title.Caption = 'FECHA'
+        Width = 80
+        FieldName = 'fec'
+      end    
+      item
+        Alignment = taRightJustify
+        Title.Alignment = taCenter
+        Title.Caption = '$ CAJA'
+        Width = 100
+        FieldName = 'caja'
+        DisplayFormat = '#,0.00'
+      end    
+      item
+        Alignment = taRightJustify
+        Title.Alignment = taCenter
+        Title.Caption = '$ RECAUD.'
+        Width = 100
+        FieldName = 'trec'
+        DisplayFormat = '#,0.00'
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'CARTONES'
+        Width = 80
+        FieldName = 'cartones'
+      end>
+    DataSource = data
+    Flat = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit]
+    ParentFont = False
+    ReadOnly = True
+    Scrollbars = ssAutoVertical
+    TabOrder = 3
+    TitleFont.CharSet = ANSI_CHARSET
+    TitleFont.Height = -13
+    TitleFont.Name = 'Segoe UI Semibold'
+    TitleFont.Pitch = fpVariable
+    TitleFont.Quality = fqDraft
+    TitleFont.Style = [fsBold]
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 84
+    Width = 79
+    Caption = 'Encontrados:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object can: TLabel
+    Left = 104
+    Height = 17
+    Top = 84
+    Width = 7
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ck_cero: TCheckBox
+    Left = 16
+    Height = 19
+    Top = 320
+    Width = 209
+    Caption = 'No contar las Cajas en valor 0 (cero)'
+    Checked = True
+    State = cbChecked
+    TabOrder = 4
+  end
+  object qexe: TZQuery
+    Connection = f_main.conex
+    Params = <>
+    Left = 120
+    Top = 192
+  end
+  object data: TDataSource
+    DataSet = qexe
+    Left = 176
+    Top = 192
+  end
+end

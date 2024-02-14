@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="bingoDM.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="56"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_main"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="195"/>
+        <CursorPos X="3" Y="309"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="caja.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_caja"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="24" Y="51"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Users\Usuario\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcIntfs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1787"/>
+        <CursorPos Y="1800"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\DEV\Lazarus\fpc\3.2.2\source\packages\winunits-base\src\mmsystem.pp"/>
+        <UnitName Value="MMSystem"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="165"/>
+        <CursorPos X="10" Y="181"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="27">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="230" Column="49" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="220" Column="14" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="419" Column="30" TopLine="410"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="79" Column="26" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="220" Column="14" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="419" Column="30" TopLine="407"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="79" Column="26" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="230" Column="63" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="332" Column="3" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="234" Column="42" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="235" Column="42" TopLine="213"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="236" Column="42" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="299" Column="3" TopLine="291"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="249" Column="20" TopLine="235"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="271" Column="20" TopLine="263"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="350" Column="50" TopLine="332"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="216" Column="3" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="346" Column="47" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="299" Column="3" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="347" Column="42" TopLine="332"/>
+      </Position>
+      <Position>
+        <Filename Value="caja.pas"/>
+        <Caret Line="45" Column="65" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="caja.pas"/>
+        <Caret Line="42" Column="3" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="caja.pas"/>
+        <Caret Line="43" Column="3" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="caja.pas"/>
+        <Caret Line="60" Column="47" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="caja.pas"/>
+        <Caret Line="61" Column="47" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="249" Column="33" TopLine="232"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="299" Column="3" TopLine="297"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="334" Column="3" TopLine="332"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
